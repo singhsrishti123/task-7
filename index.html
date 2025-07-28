@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Information Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #aad21a;
+      padding: 20px;
+    }
+
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: #8a4747;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #1499a8;
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    td {
+      background-color: #1b436b;
+    }
+
+    caption {
+      font-size: 24px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .highlight {
+      background-color: #ffeb3b;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>Student Information</caption>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Registration No.</th>
+        <th colspan="2">CGPA till Last Semester</th> <!-- colspan="2" -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Aarav</td>
+        <td>202112345</td>
+        <td>3.8</td>
+        <td rowspan="2">3.9</td> <!-- rowspan="2" -->
+      </tr>
+      <tr>
+        <td>Diya</td>
+        <td>202112346</td>
+        <td>3.7</td>
+      </tr>
+      <tr>
+        <td>Rohan</td>
+        <td>202112347</td>
+        <td>3.6</td>
+        <td>3.7</td>
+      </tr>
+      <tr>
+        <td>Kavya</td>
+        <td>202112348</td>
+        <td>3.5</td>
+        <td rowspan="2">3.8</td> <!-- rowspan="2" -->
+      </tr>
+      <tr>
+        <td>Aryan</td>
+        <td>202112349</td>
+        <td>3.9</td>
+      </tr>
+      <tr>
+        <td>priya</td>
+        <td>202112350</td>
+        <td>3.8</td>
+        <td>3.9</td>
+      </tr>
+      <tr>
+        <td>Sanjay</td>
+        <td>202112351</td>
+        <td>3.4</td>
+        <td>3.6</td>
+      </tr>
+      <tr>
+        <td>Saroj</td>
+        <td>202112352</td>
+        <td>3.7</td>
+        <td rowspan="2">3.8</td> <!-- rowspan="2" -->
+      </tr>
+      <tr>
+        <td>Mukesh</td>
+        <td>202112353</td>
+        <td>3.9</td>
+      </tr>
+      <tr>
+        <td>Sohan</td>
+        <td>202112354</td>
+        <td>3.5</td>
+        <td>3.6</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
